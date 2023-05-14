@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Portfolio </title>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+		<header class="header-sec">
+			<div class="desktop-menu">
+				<ul class="header-menu">
+					<li><img onclick="closeMenu()" class="" id="cross-icon" src="Img/cross-icon.png" alt="cross-icon"></li>
+					<li><a onclick="closeMenu()" href="index.html">Home</a></li>
+					<li><a onclick="closeMenu()" href="#qualification-section">Education & Experience</a></li>
+					<li><a onclick="closeMenu()" href="#achievement-sec">Achievement</a></li>
+					<li><a onclick="closeMenu()" href="#relevant-skills1">Skills</a></li>
+					<li><a onclick="closeMenu()" href="#portfolio-sec">Projects</a></li>
+				</ul>
+			</div>
+			<button onclick="clickToChat()" class="collab-btn">Let's Collaborate</button>
+			<div class="ham-menu">
+				<img id="ham-icon" src="Img/menu_icon.png" alt="hamburger-icon">
+			</div>
+		</header>
+		<div class="container-fluid">
+			<div class="row"; id="intro-sec">
+				<div class="col-sm-6"; id="intro">
+					<h1>Hey there!</h1>
+					<h2>I am Krishna Nimbalkar</h2>
+					<p>A computer engineering student as well as a freelancer in the field of web development.<br>
+						 I have been working in this field for the past two years, working on many <br>
+						 projects as an employee and freelancer. You can also check out my <br>
+						 LinkedIn profile below.
+					</p>
+					<button id="home-contact-btn" onclick="clickToChat()">Get In Touch</button>
+					<div class="" id="social-icon-sec">
+						<ul id="social-icon-list">
+							<li class="social-icon"><a href="https://www.linkedin.com/in/krishna-nimbalkar/" class="fa fa-linkedin"></a></li>
+							<li class="social-icon"><a href="#" class="fa fa-instagram"></a></li>
+							<li class="social-icon"><a href="https://twitter.com/KrishnaNimbalk" class="fa fa-twitter"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-6"; id="profile">
+					<img class="profile-photo" src="Img/profile.png"; width="450px"; height="450px";>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" id="qualification-section">
+			<div class="row" id="qualification-sec">
+				<div class="col-sm-12">
+					<h1>Education & Experience</h1>
+				</div>
+				<div class="row" id="qualification-list">
+					<div class="xyz" id="qualification-one">
+						<h3>Bachelor Degree</h3>
+						<p>Persuing Bachelors of Engineering  in Computer Science from Savithribai Phule University, Pune.</p>
+					</div>
+					<div class="xyz" id="qualification-two">
+						<h3>Pre-Graduation Course</h3>
+						<p>Completed Diploma in Computer Science From MSBTE in 2021 with distinction.</p>
+					</div>
+					<div class="xyz" id="qualification-three">
+						<h3>Web Developement Course</h3>
+						<p>Completed Web devlopement course on coursera and have completed 2 interships in same field.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row"; id="achievement-sec">
+				<div class="col-sm-6"; id="achievement-img">
+					<img class="achievement-photo" src="Img/achievement.png"; width="400px"; height="400px";>
+				</div>
+				<div class="col-sm-6"; id="achievement-col">
+					<h1>Achievement</h1>
+					<h4>There are many things to show here but lets see some of them...</h4>
+					<div class="" >
+						<ul id="achievement-list">
+							<li> Completed internship in web development at Encryption Infotech</li>
+							<li> Completed internship in wordpress web development at RN Webbrand Solutions Pvt. Ltd.</li>
+							<li> Working in this field as a freelancer from long time.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="container-fluid" id="relevent-skills">
+			<div class="row" id="">
+				<div class="col-sm-12">
+					<h2>Relevent Skills</h2>
+				</div>
+				<div class="row" id="skills-sec">
+					<div class="col-sm-12" id="skills-row-one">
+						<img src="Img/html-icon.png" alt="html-icon" class="skills-icons">
+						<img src="Img/css-icon.png" alt="html-icon" class="skills-icons">
+						<img src="Img/bootstrap-icon.png" alt="html-icon" class="skills-icons">
+						<img src="Img/java-script-icon.png" alt="html-icon" class="skills-icons">
+						<img src="Img/react-icon.png" alt="html-icon" class="skills-icons">
+						<img src="Img/php_icon.png" alt="html-icon" class="skills-icons">
+					</div>
+					<div class="col-sm-12" id="skills-row-two">
+						<img src="Img/c-icon.png" alt="html-icon" class="skills-icons">
+						<img src="Img/c++-icon.png" alt="html-icon" class="skills-icons">
+						<img src="Img/java-icon.png" alt="html-icon" class="skills-icons">
+						<img src="Img/sql-server-icon.png" alt="html-icon" class="skills-icons">
+						<img src="Img/wordpress-icon.png" alt="html-icon" class="skills-icons">
+						<img src="Img/photoshop_icon.png" alt="html-icon" class="skills-icons">
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="container-fluid" id="relevant-skills1">
+			<div class="row">
+			  <div class="col-xs-12">
+				<h2>Relevant Skills</h2>
+			  </div>
+			  <div class="row" id="skills-sec">
+				<div class="col-xs-6 col-sm-6" id="skills-row-one">
+				  <img src="Img/html-icon.png" alt="HTML icon" class="skills-icons">
+				  <img src="Img/css-icon.png" alt="CSS icon" class="skills-icons">
+				  <img src="Img/bootstrap-icon.png" alt="Bootstrap icon" class="skills-icons">
+				</div>
+				<div class="col-xs-6 col-sm-6" id="skills-row-one">
+				  <img src="Img/java-script-icon.png" alt="JavaScript icon" class="skills-icons">
+				  <img src="Img/react-icon.png" alt="React icon" class="skills-icons">
+				  <img src="Img/php_icon.png" alt="PHP icon" class="skills-icons">
+				</div>
+				<div class="col-xs-6 col-sm-6" id="skills-row-two">
+				  <img src="Img/c-icon.png" alt="C icon" class="skills-icons">
+				  <img src="Img/c++-icon.png" alt="C++ icon" class="skills-icons">
+				  <img src="Img/java-icon.png" alt="Java icon" class="skills-icons">
+				</div>
+				<div class="col-xs-6 col-sm-6" id="skills-row-two">
+				  <img src="Img/sql-server-icon.png" alt="SQL Server icon" class="skills-icons">
+				  <img src="Img/wordpress-icon.png" alt="WordPress icon" class="skills-icons">
+				  <img src="Img/photoshop_icon.png" alt="Photoshop icon" class="skills-icons">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		<div class="container-fluid" id="portfolio-sec">
+			<div class="overlay">
+				<div class="row" id="project-heading">
+					<div class="col-sm-12">
+						<h1 style="margin-bottom: 30px;">Project Portfolio</h1>
+						<h3>Some of my admirable work.</h3>
+					</div>
+				</div>
+				<div class="row project-row-one" >
+					<div class="project-card">
+						<a href="https://goodlifeproperties.in/"><img src="Img/goodlife.png" alt="Goodlife Properties" width="341" height="192"></a>
+						<a href="https://goodlifeproperties.in/" style="text-decoration: none;"><h6 class="project-headline">Goodlife Properties</h6></a>
+					</div>
+					<div class="project-card">
+						<a href="https://goodlifeproperties.in/"><img src="Img/goodlife.png" alt="Goodlife Properties" width="341" height="192"></a>
+						<a href="https://goodlifeproperties.in/" style="text-decoration: none;"><h6 class="project-headline">Goodlife Properties</h6></a>
+					</div>
+					<div class="project-card">
+						<a href="https://goodlifeproperties.in/"><img src="Img/goodlife.png" alt="Goodlife Properties" width="341" height="192"></a>
+						<a href="https://goodlifeproperties.in/" style="text-decoration: none;"><h6 class="project-headline">Goodlife Properties</h6></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container-fluid footer-sec">
+				<div class="row">
+					<div class="col-sm-4 tablet-contact-sec">
+						<h2 id="footer-contact-heading">Contact</h2>
+						<div class="" id="contact-icon-sec">
+							<ul id="contact-icon-list">
+								<li class="contact-icon" id="location-icon"><a href="#" >Pune, Maharashtra.</a></li>
+								<li class="contact-icon" id="mail-icon"><a href="#">krishnanimbalkar2151@gmail.com</a></li>
+								<li class="contact-icon" id="phone-icon"><a href="#">+91-8999972119</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 follow-sec">
+						<h4>Follow Me On</h4>
+						<div class="footer-sec-icon" id="social-icon-sec">
+							<ul id="social-icon-list">
+								<li class="social-icon"><a href="https://www.linkedin.com/in/krishna-nimbalkar/" class="fa fa-linkedin"></a></li>
+								<li class="social-icon"><a href="#" class="fa fa-instagram"></a></li>
+								<li class="social-icon"><a href="https://twitter.com/KrishnaNimbalk" class="fa fa-twitter"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-4" id="free-space"></div>
+					<div class="col-sm-4 copyright-sec">
+						<h6>Copyrights reserved @2023 <span>Krishna Nimbalkar</span>.</h6>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
