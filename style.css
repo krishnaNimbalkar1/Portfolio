@@ -93,7 +93,11 @@ ul{
 	border: 5px solid whitesmoke;
 	border-radius: 100%;
 	text-align: center;
+<<<<<<< HEAD
 	
+=======
+	background-color: white;
+>>>>>>> origin/master
 }
 
 #home-contact-btn{
